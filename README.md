@@ -21,3 +21,11 @@ docker run barrosofilho/fullcycle
 ```
 
 Você verá a mensagem "Full Cycle Rocks!!" como resultado.
+
+
+## _Como rodar e testar o projeto via imagem no docker hub (opcional)_
+
+```bash
+docker pull barrosofilho/fullcycle-go-docker:latest
+docker run barrosofilho/fullcycle-go-docker:latest
+```

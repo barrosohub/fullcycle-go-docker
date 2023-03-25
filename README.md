@@ -5,22 +5,19 @@ Este projeto é um exemplo simples de como criar uma aplicação Go e empacotá-
 ## Como rodar e testar o projeto
 
 1. Clone este repositório:
-
-\`\`\`bash
+```bash
 git clone https://github.com/barrosohub/fullcycle-go-docker.git
 cd fullcycle-go-docker
-\`\`\`
+```
 
 2. Construa a imagem Docker:
-
-\`\`\`bash
+```bash
 docker build -t barrosofilho/fullcycle .
-\`\`\`
+```
 
 3. Execute a imagem Docker:
-
-\`\`\`bash
+```bash
 docker run barrosofilho/fullcycle
-\`\`\`
+```
 
 Você verá a mensagem "Full Cycle Rocks!!" como resultado.
